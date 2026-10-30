@@ -1,0 +1,21 @@
+# pc486 - Raspberry Pi 4 / Pi 400
+arm_64bit=1
+kernel=kernel8-rpi4.img
+armstub=armstub8-rpi4.bin
+kernel_address=0x80000
+initial_turbo=0
+
+# HDMI: always on, even if the monitor is switched on later
+hdmi_force_hotplug=1
+disable_overscan=1
+framebuffer_ignore_alpha=1
+
+# Uncomment to force a resolution (e.g. 1024x768 @60Hz, 4:3 monitor)
+#hdmi_group=2
+#hdmi_mode=16
+
+# Uncomment for sharp (nearest neighbour) scaling of the emulated screen
+#scaling_kernel=8
+
+# HDMI audio
+hdmi_drive=2

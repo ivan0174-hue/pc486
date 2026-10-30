@@ -1,0 +1,9 @@
+*.o
+*.d
+pc486_headless
+pc486_trace
+pi/build/
+pi/*.elf
+pi/*.lst
+pi/*.map
+pi/kernel8-rpi4.img
